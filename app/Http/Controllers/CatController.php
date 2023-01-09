@@ -45,7 +45,7 @@ class CatController extends Controller
         ]);
 
         $cat = Cat::create($request->all());
-        return response()->json("Cat added successfully");
+        return response()->json("Data Cat added successfully");
     }
 
     /**
