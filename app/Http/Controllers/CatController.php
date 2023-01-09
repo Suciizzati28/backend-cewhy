@@ -68,7 +68,7 @@ class CatController extends Controller
      */
     public function edit(Cat $cat)
     {
-        //
+        
     }
 
     /**
